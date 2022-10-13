@@ -21,21 +21,7 @@ public class ExampleApplication extends SpringBootServletInitializer{
         SpringApplication.run(ExampleApplication.class, args);
     }
 
-    @Bean
-    ApplicationRunner appRunner() {
-        return args -> {
-            final Log logger = LogFactory.getLog(getClass());
-//            Actor actor = new Actor("Rodrigo", "Aranda Fernandez");
-//            repositorio.save(actor);
-
-//            List<Actor> lista = (List<Actor>) repositorio.findAll();
-//            logger.info(lista);
-
-          
-
-
-        };
-    }
+   
 
 }
 
